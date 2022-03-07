@@ -1,0 +1,285 @@
+ body, html {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ 
+ body {
+     background: radial-gradient(circle, rgb(134, 2, 61) 0%, rgba(255, 0, 140, 1) 100%);
+     color: white;
+ }
+ 
+ a {
+     text-decoration: none !important;
+     text-align: right;
+ }
+ 
+ .form-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .preloader{
+          /*
+          Making the preloader floating over other elements.
+          The preloader is visible by default. 
+          */
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          z-index: 1000;
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+      }
+      
+      
+ 
+.preloader p.spacerUp {
+   flex:1;
+}
+
+.preloader p.spacerBottom {
+   flex:3;
+}
+
+
+.red {
+    border: 3px solid red;
+    padding: 0;
+}
+
+
+.cyan {
+    border: 3px solid cyan;
+}
+
+.yellow {
+    border: 3px solid yellow;
+}
+
+.coral {
+    border: 3px solid coral;
+}
+
+.green {
+    border: 3px solid green;
+}
+
+.blue {
+    border: 3px solid blue;
+}
+
+.container-fluid, .container {
+    padding: 0 !important;
+}
+header {
+    height: 80px;
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin:0;
+    padding:0;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+
+.login {
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    box-sizing:border-box;
+    margin-top: 10vw;
+    padding: 30px;
+    background-color: rgba(247, 247, 247);
+}
+
+.register {
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    box-sizing:border-box;
+    margin-top: 5vw;
+    padding: 30px;
+    background-color: rgba(247, 247, 247);
+}
+
+.profile {
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    box-sizing:border-box;
+    margin-top: 5vw;
+    padding: 30px;
+    background-color: rgba(247, 247, 247);
+}
+
+.edit {
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    box-sizing:border-box;
+    margin-top: 2.75vw;
+    padding: 30px;
+    background-color: rgba(247, 247, 247);
+}
+
+.view {
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    box-sizing:border-box;
+    margin-top: 3vw;
+    padding: 30px;
+    background-color: rgba(247, 247, 247);
+}
+
+.questionary {
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    box-sizing:border-box;
+    margin-top: 0vw;
+    padding: 10px;
+    background-color: rgba(247, 247, 247);
+}
+
+.myMismatch {
+    border: 1px solid rgba(100,100,100,.5);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    box-sizing:border-box;
+    padding: 30px;
+    background-color: rgba(247, 247, 247);
+    
+    text-align: center;
+}
+
+.label_questionnaire {
+    width:65%;
+    text-align: left;
+    line-height: .5em;
+}
+
+.leftFormRegister {
+    float: left;
+}
+
+.rightFormRegister {
+    float: right;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+form h2 {
+    width: 100%;
+    text-align:center;
+    margin-bottom: 20px;
+   
+     
+}
+
+h4 {
+    text-align: center;
+}
+.form {
+   
+}
+.pushright {
+    text-align: right;
+    
+}
+
+.fila1, .fila2 {
+    height: 200px;
+    
+}
+
+.fila1 {
+    margin-top: 10% !important;
+}
+
+ 
+.picture1 {
+   background-image: url(images/couple1.jpg);
+}
+.picture2 {
+    background-image: url(images/couple2.jpg);
+
+}
+.picture1, .picture2 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.square2 {
+    background: linear-gradient(135deg, rgb(248, 54, 180) 0%, rgba(169, 30, 110, 1) 100%);
+}
+
+.square1 {
+    background: linear-gradient(135deg, rgba(78, 124, 64, 1) 0%, rgba(154, 205, 50, 1) 100%);
+}
+
+.square3 {
+    background: linear-gradient(135deg, rgba(245, 79, 2, 1) 0%, rgba(235, 176, 25, 1) 100%);
+}
+
+.square4 {
+    background: linear-gradient(135deg, rgba(219, 135, 31, 1) 0%, rgba(235, 222, 25, 1) 100%);
+}
+
+.copy {
+    width: 100%;
+    text-align: center;
+    font-size: .7rem;
+    color: white;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 120px;
+    height: 60px;
+ 
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    background-image: url('images/logoMM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav {
+    width: 80%;
+    height: 60px;
+    
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    text-align: right;
+    line-height: 60px;
+}
+
+.table {
+     border:1px solid black;
+}
+
+.profile_picture {
+  float: left;
+}
